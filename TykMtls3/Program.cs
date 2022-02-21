@@ -78,9 +78,6 @@ namespace TykMtls2
             byte[] data = new byte[size];
             size = f.Read(data, 0, size);
             f.Close();
-            
-            
-            
             return data;
         }
 
@@ -103,8 +100,8 @@ namespace TykMtls2
             //Add the certificate to a X509Store.
             X509Store store = new X509Store();
             store.Open(OpenFlags.MaxAllowed);
-            // store.Add(certificate);
-            // store.Close();
+            store.Add(certificate);
+            store.Close();
         }
     }
 }
