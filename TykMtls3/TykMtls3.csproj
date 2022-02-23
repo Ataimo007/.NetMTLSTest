@@ -120,18 +120,42 @@
       <None Include="packages.config" />
     </ItemGroup>
     <ItemGroup>
-      <Content Include="Certificates\cert.pem" />
-      <Content Include="Certificates\chain.pem" />
-      <Content Include="Certificates\clientcert.pem" />
-      <Content Include="Certificates\clientcert.pfx" />
-      <Content Include="Certificates\clientcombined.pem" />
-      <Content Include="Certificates\combined.pem" />
-      <Content Include="Certificates\fullcert.pfx" />
-      <Content Include="Certificates\fullchain.pem" />
-      <Content Include="Certificates\intermidiatecert.pem" />
-      <Content Include="Certificates\privkey.pem" />
-      <Content Include="Certificates\README" />
-      <Content Include="Certificates\rootcert.pem" />
+      <Content Include="Certificates\cert.pem">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Certificates\chain.pem">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Certificates\clientcert.pem">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Certificates\clientcert.pfx">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Certificates\clientcombined.pem">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Certificates\combined.pem">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Certificates\fullcert.pfx">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Certificates\fullchain.pem">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Certificates\intermidiatecert.pem">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Certificates\privkey.pem">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Certificates\README">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Certificates\rootcert.pem">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
     </ItemGroup>
     <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
     <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

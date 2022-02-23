@@ -44,7 +44,7 @@ namespace TykMtls2
  
             request.AddParameter("registeredNumber", companyRegistrationNumber, ParameterType.QueryString);
  
-            // add certificate
+            // add certificatea
             string certificatePath = System.Configuration.ConfigurationManager.AppSettings["certificatePath"];
             string certificatePassword = System.Configuration.ConfigurationManager.AppSettings["certificatePassword"];
             
